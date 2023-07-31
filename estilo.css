@@ -57,6 +57,7 @@ html{
 }
 /* SECCION I N I C I O */
 .inicio{
+    margin-top: 3.6rem;
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
     url(img/fondo.jpg);
     background-size: cover;
@@ -123,9 +124,11 @@ html{
 
 }
 .sobremi .contenido-seccion p{
-    font: 18px;
-    line-height: 1;
+    font-size: 18px;
+    letter-spacing: 1px;
     margin-bottom: 20px;
+    line-height: 1.3;
+
 }
 .sobremi .contenido-seccion p::first-letter{
     margin-left: 16px;
