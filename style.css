@@ -36,7 +36,10 @@ html {
     font-family: 'Manrope';
     font-weight: 500;
     font-size: 36px;
-    color: #d3b81f;
+    background: linear-gradient(120deg, #f4e179 0%, rgb(144, 124, 27) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
 }
 
@@ -73,10 +76,10 @@ html {
     margin-top: 3.6rem;
     /* background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30, 35, 38, 1)),
         url(img/fondo.jpg); */
-        background: radial-gradient(circle, #65634a 10%, transparent 11%),radial-gradient(circle at bottom left, #65634a 5%, transparent 6%),radial-gradient(circle at bottom right, #65634a 5%, transparent 6%),radial-gradient(circle at top left, #65634a 5%, transparent 6%),radial-gradient(circle at top right, #65634a 5%, transparent 6%);
-        background-size: 5em 5em;
-        background-color: #1E2326;
-        opacity: 1;
+    background: radial-gradient(circle, #65634a 10%, transparent 11%), radial-gradient(circle at bottom left, #65634a 5%, transparent 6%), radial-gradient(circle at bottom right, #65634a 5%, transparent 6%), radial-gradient(circle at top left, #65634a 5%, transparent 6%), radial-gradient(circle at top right, #65634a 5%, transparent 6%);
+    background-size: 5em 5em;
+    background-color: #1E2326;
+    opacity: 1;
     height: 100vh;
     color: #fff;
     display: flex;
@@ -106,8 +109,12 @@ html {
     margin-top: 40px;
     font-size: 42px;
     font-family: 'Ubuntu';
-    color: #f5dc4a;
+    /* color: #f5dc4a; */
     letter-spacing: 1px;
+    background: linear-gradient(120deg, #f4e179 0%, rgb(144, 124, 27) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .inicio .contenido-banner h2 {
@@ -150,6 +157,10 @@ html {
     font-family: 'Ubuntu';
     text-align: center;
     padding: 20px 0;
+    background: linear-gradient(120deg, #f4e179 0%, rgb(144, 124, 27) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -196,6 +207,7 @@ html {
     display: inline-block;
     color: #d3b81f;
     width: 130px;
+    font-weight: 600;
 }
 
 .sobremi .fila .col ul li span {
@@ -500,6 +512,10 @@ html {
     font-family: 'Ubuntu';
     text-align: center;
     padding: 20px 0;
+    background: linear-gradient(120deg, #f4e179 0%, rgb(144, 124, 27) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -618,7 +634,15 @@ html {
     justify-content: center;
     align-items: start;
 
+    & h2 {
+        background: linear-gradient(120deg, #f4e179 0%, rgb(144, 124, 27) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+    }
+
     & .title {
+        margin-bottom: -2.4rem;
         font-size: 48px;
         font-family: 'Ubuntu';
         text-align: center;
@@ -627,8 +651,7 @@ html {
     }
 
     & .item {
-        margin-top: -4.4rem;
-        display: flex; 
+        display: flex;
         justify-content: start;
         align-items: start;
         flex-direction: column;
@@ -639,20 +662,20 @@ html {
         padding: 8rem;
 
         & a {
-            color:white;
+            color: white;
             text-decoration: none;
             font-size: 20px;
-            display:block;
+            display: block;
             margin-bottom: 8px;
 
-            &:hover{
+            &:hover {
                 color: #d3b81f;
             }
         }
 
         & .img {
             width: 72vw;
-            
+
         }
 
         & .text {
@@ -662,10 +685,14 @@ html {
         }
 
         & h3 {
-            color: #d3b81f;
             font-weight: 600;
             margin-bottom: 1.6rem;
+            background: linear-gradient(120deg, #f4e179 0%, rgb(144, 124, 27) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
+
 
         & .content {
             width: 100%;
