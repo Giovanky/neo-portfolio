@@ -674,7 +674,7 @@ html {
         }
 
         & .img {
-            width: 72vw;
+            /* width: 80rem; */
 
         }
 
@@ -833,5 +833,9 @@ footer .arriba {
 
     .contacto .fila .col {
         width: 100%;
+    }
+
+    @media screen and (max-width: 724px) {
+
     }
 }
