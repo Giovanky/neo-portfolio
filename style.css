@@ -636,9 +636,9 @@ html {
 
     & h2 {
         background: linear-gradient(120deg, #f4e179 0%, rgb(144, 124, 27) 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     & .title {
@@ -659,7 +659,7 @@ html {
         color: white;
         font-size: 32px;
         font-family: 'ubuntu';
-        padding: 8rem;
+        padding: 1.6rem 3.2rem 1.6rem 1.6rem;
 
         & a {
             color: white;
@@ -674,8 +674,22 @@ html {
         }
 
         & .img {
-            /* width: 80rem; */
+            margin:auto;
+            width: 48rem;
+            background-position: center;
+            background-size: contain;
 
+            @media screen and (max-width: 800px) {
+                width: 32rem;
+            }
+
+            @media screen and (max-width: 570px) {
+                width: 26rem;
+            }
+
+            @media screen and (max-width: 520px) {
+                width: 20rem;
+            }
         }
 
         & .text {
@@ -835,7 +849,5 @@ footer .arriba {
         width: 100%;
     }
 
-    @media screen and (max-width: 724px) {
-
-    }
+    @media screen and (max-width: 724px) {}
 }
