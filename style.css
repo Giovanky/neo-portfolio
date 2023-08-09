@@ -9,8 +9,16 @@
 }
 
 html {
-    /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    width: 16px;
+    background:#252A2E;
+}
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #f4e179 0%, rgb(144, 124, 27) 100%);
+    border-radius: 8px;
 }
 
 /* MENU */
@@ -671,7 +679,7 @@ html {
             font-size: 20px;
             display: block;
             margin-bottom: 8px;
-            
+
 
             &:hover {
                 color: #d3b81f;
@@ -679,7 +687,7 @@ html {
         }
 
         & .img {
-            margin:auto;
+            margin: auto;
             width: 52rem;
             background-position: center;
             background-size: contain;
