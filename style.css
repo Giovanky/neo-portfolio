@@ -13,10 +13,11 @@ html {
     scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: 16px;
-    background:#252A2E;
+    background: #252A2E;
 }
+
 body::-webkit-scrollbar-thumb {
     background: linear-gradient(to bottom, #f4e179 0%, rgb(144, 124, 27) 100%);
     border-radius: 8px;
@@ -102,6 +103,10 @@ body::-webkit-scrollbar-thumb {
     margin: auto;
     text-align: center;
     border-radius: 40px;
+
+    @media (max-width: 600px) {
+        max-width: 250px;
+    }
 }
 
 .inicio .contenido-banner img {
