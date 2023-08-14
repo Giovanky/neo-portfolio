@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portafolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Mixpanel -->
+    <script type="text/javascript">
+        (function (f, b) {
+            if (!b.__SV) {
+                var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) {
+                    function g(a, d) { var b = d.split("."); 2 == b.length && (a = a[b[0]], d = b[1]); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))) } } var a = b; "undefined" !== typeof c ? a = b[c] = [] : c = "mixpanel"; a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d }; a.people.toString = function () { return a.toString(1) + ".people (stub)" }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+                    for (h = 0; h < i.length; h++)g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]) } } for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++)b(j[c]); return d }; b._i.push([e, f, c])
+                }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g)
+            }
+        })(document, window.mixpanel || []);
+        mixpanel.init('148f1c5ea59382f952abdecdf1667ec1', { debug: true, track_pageview: true, persistence: 'localStorage' });
+        mixpanel.track('Visit Page')
+    </script>
 </head>
+
 <body>
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
@@ -35,10 +52,11 @@
             <div class="contenedor-img">
                 <img src="img/hero.jpg" alt="">
             </div>
-            <h1 >Giovanny Garzón</h1>
+            <h1>Giovanny Garzón</h1>
             <h2 style="margin-top: 12px;">Desarrollador Fullstack</h2>
             <div class="redes">
-                <a href="https://www.linkedin.com/in/giovanny-garzon-soto-a1b206176/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/giovanny-garzon-soto-a1b206176/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/giovannygarzonsoto" target="_blank"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
@@ -49,9 +67,15 @@
         <div class="contenido-seccion">
             <h2>Sobre Mí</h2>
             <p>
-                Hola, soy Giovanny Garzón, un Desarrollador Fullstack de 28 años. Mi pasión por la música y la tecnología impulsa mi vida. Actualmente, me encuentro inmerso en el emocionante mundo del desarrollo en el ecosistema de Javascript/Typescript. Mi enfoque se centra en la creación de páginas web y sistemas backend.
-                Disfruto especialmente aplicando estilos a las interfaces utilizando SCSS. Siempre encuentro fascinante la posibilidad de aprender nuevas formas de estilizar y ser creativo, lo que representa un desafío muy interesante.
-                En el ámbito de los frameworks Javascript, cuento con experiencia en React y Vue. Para el desarrollo backend, confío en Node.js junto con Express, trabajando con bases de datos tanto SQL como NoSQL.</p>
+                Hola, soy Giovanny Garzón, un Desarrollador Fullstack de 28 años. Mi pasión por la música y la
+                tecnología impulsa mi vida. Actualmente, me encuentro inmerso en el emocionante mundo del desarrollo en
+                el ecosistema de Javascript/Typescript. Mi enfoque se centra en la creación de páginas web y sistemas
+                backend.
+                Disfruto especialmente aplicando estilos a las interfaces utilizando SCSS. Siempre encuentro fascinante
+                la posibilidad de aprender nuevas formas de estilizar y ser creativo, lo que representa un desafío muy
+                interesante.
+                En el ámbito de los frameworks Javascript, cuento con experiencia en React y Vue. Para el desarrollo
+                backend, confío en Node.js junto con Express, trabajando con bases de datos tanto SQL como NoSQL.</p>
             <div class="fila">
                 <!-- datos personales -->
                 <div class="col">
@@ -118,7 +142,9 @@
                         <h4>Soporte Tecnico</h4>
                         <span class="casa">Soluciones Informaticas Caldera</span>
                         <span class="fecha">2019</span>
-                        <p>Brindar soluciones de soporte a usuarios, desde instalación de programas, recuperación de datos de discos, instalación de sistemas operativos tanto windows como Linux y mantenimiento de hardware.</p>
+                        <p>Brindar soluciones de soporte a usuarios, desde instalación de programas, recuperación de
+                            datos de discos, instalación de sistemas operativos tanto windows como Linux y mantenimiento
+                            de hardware.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -144,28 +170,35 @@
         <h2 class="title">Portafolio</h2>
         <div class="item">
             <h3>Clon Manga Plus</h3>
-            <a target="_blank" href="https://github.com/GiovannyGarzonSoto/manga-app-express-mongo"><i class="fa-brands fa-github"></i> manga-api-node-mongo</a>
-            <a target="_blank" href="https://github.com/GiovannyGarzonSoto/manga-app-vue3-ts"><i class="fa-brands fa-github"></i> manga-app-vue3-scss</a>
+            <a target="_blank" href="https://github.com/GiovannyGarzonSoto/manga-app-express-mongo"><i
+                    class="fa-brands fa-github"></i> manga-api-node-mongo</a>
+            <a target="_blank" href="https://github.com/GiovannyGarzonSoto/manga-app-vue3-ts"><i
+                    class="fa-brands fa-github"></i> manga-app-vue3-scss</a>
             <p class="text">
-                Este proyecto es un Clon de la pagina MangaPlus la cual sirve para leer mangas de manera online. Esta totalmente realizado con SCSS, utilizando la metodologia BEM. Dentro de sus funcionalidades esta buscar Mangas por nombre, ver su lista de Capitulos, agregar a favoritos almacenandolo en el LocalStorage, visualizar las imagenes del manga, etc.
+                Este proyecto es un Clon de la pagina MangaPlus la cual sirve para leer mangas de manera online. Esta
+                totalmente realizado con SCSS, utilizando la metodologia BEM. Dentro de sus funcionalidades esta buscar
+                Mangas por nombre, ver su lista de Capitulos, agregar a favoritos almacenandolo en el LocalStorage,
+                visualizar las imagenes del manga, etc.
             </p>
             <img class="img" src="img/main.png" alt="main">
             <img class="img" src="img/title.png" alt="main">
             <img class="img" src="img/viewer.png" alt="main">
         </div>
     </div>
-    
+
     <!-- footer -->
     <footer>
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            <a href="https://www.linkedin.com/in/giovanny-garzon-soto-a1b206176/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/giovanny-garzon-soto-a1b206176/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/giovannygarzonsoto" target="_blank"><i class="fa-brands fa-github"></i></a>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
