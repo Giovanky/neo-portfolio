@@ -110,7 +110,7 @@ body::-webkit-scrollbar-thumb {
 
 .inicio .contenido-banner img {
     margin-top: 4px;
-    border: 6px solid #d3b81f;
+    border: 8px solid #d3b81f;
     border-image: linear-gradient(90deg, rgba(211, 184, 31, 1) 0%, rgba(75, 204, 35, 1) 100%) 10px rounded;
     display: block;
     width: 80%;
